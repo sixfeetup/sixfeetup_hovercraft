@@ -1,0 +1,24 @@
+@media print {
+    
+body {
+    overflow: visible !important;
+}
+#impress,
+#impress > div {
+    position: static !important;
+    transform: none !important;
+    transform-style: flat !important;
+}
+.step {
+    position: static !important;
+    page-break-after: always;
+    transform: none !important;
+    transform-style: flat !important;
+    width: 100% !important;
+}
+#hovercraft-help,
+#footer {
+    display: none;
+}
+
+}
