@@ -36,12 +36,12 @@ Create a folder for your new presentation::
   $ cd sample
   $ touch slides.rst
 
-Edit the new ReST file to build your presentation. See see https://hovercraft.readthedocs.org/en/1.0/_sources/examples/tutorial.txt for and example of a presentation written with ReST
+Edit the new ReST file to build your presentation. See see https://hovercraft.readthedocs.org/en/1.0/_sources/examples/tutorial.txt for an example of a presentation written with ReST
 
-Once you have written the ReST, convert the file into the presentation::
+Once you have written your slides, convert the file into the presentation::
 
-  $ workon presentations
   $ cd presentations/sample/
+  $ workon presentations
   (presentations)$ hovercraft -t ../sixfeetup_hovercraft slides.rst .
 
 You can now view the `index.html` that was created in a browser, or put your presentation's folder on the web. 
