@@ -63,8 +63,8 @@ The code blocks use the Pygments Solarized theme. If you want to use a different
 
 Example:
  * download fruity.css from https://github.com/richleland/pygments-css
- * add fruity.css into your presentation folder. Update the file so the selectors are for `.highlight` instead of `.codehilite`
- * add `:css: fruity.css` at the top of the .rst
+ * add fruity.css into your presentation folder. Update the file so the selectors are for ``.highlight`` instead of ``.codehilite``
+ * add ``:css: fruity.css`` at the top of the .rst
  
-Do not name a CSS file the same as one in the Six Feet Up theme, as it will be overwritten once the `hovercraft` command is run.
+Do not name a CSS file the same as one in the Six Feet Up theme, as it will be overwritten once the ``hovercraft`` command is run.
 
