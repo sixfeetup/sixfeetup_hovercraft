@@ -16,6 +16,9 @@ body {
 #footer p {
     margin: 8px 0 0 0;
 }
+#footer.disabled {
+    display: none;
+}
 .step {
     font-size: 28px;
     color: #333333;
@@ -34,9 +37,7 @@ pre {
     line-height: 1.2em;
 }
 tt {
-    padding: 10px;
-    background-color: #002B36;
-    color: #93A1A1;
+    color: #888888;
 }
 ul li {
     padding-left: 5px;
