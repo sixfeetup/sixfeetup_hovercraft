@@ -5,14 +5,21 @@ body {
 #footer {
     position: fixed;
     bottom: 0;
-    background-color: #494949;
+    background: #494949;
     color: #ffffff;
-    width: 100%;
-    padding: 5px;
+    width: 96%;
+    padding: 5px 2%;
+}
+#footer img {
+    float: right;
+}
+#footer p {
+    margin: 8px 0 0 0;
 }
 .step {
-    font-size: 36px;
+    font-size: 28px;
     color: #333333;
+    width: 900px;
 }
 h1 {
     color: #296177;

@@ -27,7 +27,7 @@ div#blocker {
     position: absolute;
     top: 0;
     left: 0;
-    display: blocker;
+    display: block;
 }
 
 div#notes {
