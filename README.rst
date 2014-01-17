@@ -58,13 +58,17 @@ Custom Styles
 Custom styles can be added to a single presentation by adding a CSS file.  The top of your .rst just needs to specify the path to the CSS files::
 
   :css: css/custom.css
-  
-The code blocks use the Pygments Solarized theme. If you want to use a different Pygments theme, you can just add a stylesheet for them in your presentation folder.
-
-Example:
- * download fruity.css from https://github.com/richleland/pygments-css
- * add fruity.css into your presentation folder. Update the file so the selectors are for ``.highlight`` instead of ``.codehilite``
- * add ``:css: fruity.css`` at the top of the .rst
  
 Do not name a CSS file the same as one in the Six Feet Up theme, as it will be overwritten once the ``hovercraft`` command is run.
+
+Pygments
+--------
+
+Various Pygments themes are available to use for the code blocks.  Currently, all will be copied over to your presentation folder when the ``hovercraft`` command is run. 
+
+If a theme is not specified, the Solarized theme will be used.  To specify a theme, put this at the top of your .rst::
+
+    :pygments: tango
+    
+Only that theme's CSS file will be loaded into the presentation. Check css/pygments to see the names of the themes available.
 

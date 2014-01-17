@@ -38,6 +38,12 @@ xmlns="http://www.w3.org/1999/xhtml">
         <xsl:copy-of select="@*"/>
       </link>
     </xsl:for-each>
+    
+    <xsl:if test="/document/@pygments">
+        <link rel="stylesheet" media="screen">
+            <xsl:attribute name="href">css/pygments/<xsl:value-of select="/document/@pygments" />.css</xsl:attribute>
+        </link>
+    </xsl:if>
 
     <xsl:for-each select="/document/templateinfo/header/js">
       <script type="text/javascript">
