@@ -1,5 +1,5 @@
 /* Pygments solarized theme, this is the default */
-.hll { background-color: #002B36 }
+.highlight, .hll { background-color: #002B36 }
 .c { color: #859900 } /* Comment */
 .err { color: #d33682; background-color: #002B36 } /* Error */
 .k { color: #268bd2 } /* Keyword */
