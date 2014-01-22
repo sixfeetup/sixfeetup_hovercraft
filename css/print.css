@@ -27,6 +27,7 @@ body {
 }
 #footer .print {
     display: inline;
+    float: right;
 }
 
 }
