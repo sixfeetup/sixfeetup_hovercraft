@@ -13,6 +13,9 @@ body {
 #footer img {
     float: right;
 }
+#footer .print {
+    display: none;
+}
 #footer p {
     margin: 8px 0 0 0;
 }

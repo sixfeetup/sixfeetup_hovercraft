@@ -16,9 +16,17 @@ body {
     transform-style: flat !important;
     width: 100% !important;
 }
-#hovercraft-help,
-#footer {
+#hovercraft-help {
     display: none;
+}
+#footer {
+    border-top: 3px solid #474747;
+}
+#footer .screen {
+    display: none;
+}
+#footer .print {
+    display: inline;
 }
 
 }
