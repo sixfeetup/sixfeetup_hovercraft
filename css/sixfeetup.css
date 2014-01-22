@@ -45,3 +45,25 @@ tt {
 ul li {
     padding-left: 5px;
 }
+
+/* for mobile browsers and others that don't support CSS 3D transforms */
+.impress-not-supported #impress,
+.impress-not-supported #impress > div {
+    position: static !important;
+    margin-bottom: 50px;
+    width: auto !important;
+}
+.impress-not-supported .step {
+    padding: 50px 5%;
+    border-bottom: 2px solid #cccccc;
+    width: 90% !important;
+}
+.impress-not-supported #hovercraft-help {
+    display: none;
+}
+.impress-not-supported #footer {
+    font-size: 15px;
+}
+
+
+
