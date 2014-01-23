@@ -2,6 +2,10 @@ body {
     font-family: Verdana, Arial, serif;
     margin: 0;
 }
+#impress,
+#impress > div {
+    width: 100%;
+}
 #footer {
     position: fixed;
     bottom: 0;
@@ -25,7 +29,7 @@ body {
 .step {
     font-size: 28px;
     color: #333333;
-    width: 900px;
+    width: 70%;
 }
 h1 {
     color: #296177;
@@ -50,11 +54,11 @@ ul li {
 .impress-not-supported #impress,
 .impress-not-supported #impress > div {
     position: static !important;
-    margin-bottom: 50px;
+    margin: 100px 0;
     width: auto !important;
 }
 .impress-not-supported .step {
-    padding: 50px 5%;
+    padding: 5%;
     border-bottom: 2px solid #cccccc;
     width: 90% !important;
 }
