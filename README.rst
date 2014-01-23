@@ -50,7 +50,12 @@ You can now view the `index.html` that was created in a browser, or put your pre
 Create PDF
 ----------
 
-The slideshow has been set up so that you can print to PDF from the browser.
+The slideshow has been set up so that you can print to PDF from the browser. This currently works best from Firefox (it displays the footer on every page), but make sure to adjust the following settings in the Page Setup and Print menus:
+
+ * Print in a landscape layout
+ * Check ``Ignore Scaling and Shrink to Fit Page Width``
+ * Check ``Print Background Colors``
+ * Set all Page Headers and Page Footers to ``blank``
 
 Custom Styles
 -------------
