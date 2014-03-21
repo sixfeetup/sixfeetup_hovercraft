@@ -6,6 +6,10 @@ body {
 #impress > div {
     width: 100%;
 }
+a,
+a:visited {
+    color: #64BBDB;
+}
 #footer {
     position: fixed;
     bottom: 0;
