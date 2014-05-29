@@ -54,6 +54,28 @@ tt {
 ul li {
     padding-left: 5px;
 }
+dt {
+    font-weight: bold;
+}
+table {
+    width: 100%;
+}
+th {
+    border-bottom: 2px solid #000000;
+}
+th, td {
+    padding: 5px 15px;
+    text-align: left;
+}
+td p,
+th p {
+    margin: 0;
+}
+
+/* title slide */
+#step-1 {
+    text-align: center;
+}
 
 /* for mobile browsers and others that don't support CSS 3D transforms */
 .impress-not-supported #impress,
