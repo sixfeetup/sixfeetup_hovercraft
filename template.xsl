@@ -6,6 +6,17 @@ xmlns="http://www.w3.org/1999/xhtml">
 
 <xsl:import href="resource:templates/reST.xsl" />
 
+<xsl:template match="step" name="step">
+    <div class="step">
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates />
+    </div>
+</xsl:template>
+
+<xsl:template match="note" name="note">
+  <div class="notes"><xsl:apply-templates /></div>
+</xsl:template>
+
 <xsl:template match="/" name="main">
 <html>
   <head>
@@ -56,6 +67,11 @@ xmlns="http://www.w3.org/1999/xhtml">
   
     <xsl:for-each select="/document">
       <div id="impress">
+        <xsl:if test="@data-perspective">
+          <xsl:attribute name="data-perspective">
+            <xsl:value-of select="@data-perspective" />
+          </xsl:attribute>
+        </xsl:if>
         <xsl:if test="@data-transition-duration">
           <xsl:attribute name="data-transition-duration">
             <xsl:value-of select="@data-transition-duration" />
@@ -72,7 +88,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <xsl:apply-templates />
           </div>
         </xsl:for-each>
-      </div> 
+      </div>
     </xsl:for-each>
     
     <div id="footer">
